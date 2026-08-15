@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Layletna | ليلتنا"
+description = "A polished Arabic-first wedding invitation platform prototype for Egyptian couples, with guided invitation creation, live previews, guest management, sharing, RSVP, and QR check-in demos."
+version = "1.0.0"
+id = "artifacts/layletna"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23675
+
+[services.development]
+run = "pnpm --filter @workspace/layletna run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/layletna", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/layletna/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23675"
+BASE_PATH = "/"

@@ -1,0 +1,719 @@
+# Build a Frontend Prototype for "Layletna | ليلتنا"
+
+Create a polished, modern frontend-only prototype for an Egyptian digital wedding invitation platform called:
+
+**ليلتنا | Layletna**
+
+Tagline:
+**ليلتكم تبدأ من هنا.**
+
+The goal is to create a realistic SaaS-style product demo that feels like a real startup, not a simple template website.
+
+This is **frontend only** for now.
+Do NOT implement a real backend, database, authentication, payment gateway, real messaging API, or real hosting logic.
+Use realistic mock data and local state so the entire experience works as a clickable prototype.
+
+Use the screenshots provided in the conversation as visual inspiration for the general business concept, but do NOT copy their design. The new product should feel significantly more modern, premium, clean, and user-friendly.
+
+---
+
+## 1. Product Positioning
+
+Layletna is not just an invitation generator.
+
+The product helps couples create and manage a digital wedding invitation and their guest experience.
+
+The core idea is:
+
+**Invitation + RSVP + Guest Management + Wedding Details**
+
+The interface should make these things extremely easy even for clients who are not tech-savvy.
+
+Avoid complicated dashboards and technical language.
+
+The user should always understand:
+
+1. What step they are on
+2. What they should do next
+3. What their invitation currently looks like
+
+---
+
+# 2. Target User
+
+Primary audience:
+
+* Egyptian couples
+* Families planning weddings
+* Users with limited technical experience
+* Mostly mobile users
+* Arabic-first experience
+
+The interface should support **RTL Arabic** beautifully.
+
+Use Arabic as the main UI language.
+
+A small English language toggle can exist, but Arabic is the default.
+
+---
+
+# 3. Visual Direction
+
+Create a premium wedding aesthetic.
+
+Style:
+
+* Elegant
+* Minimal
+* Modern luxury
+* Warm
+* Emotional
+* Clean
+* Spacious
+* High-end
+
+Avoid excessive:
+
+* Gold gradients
+* Hearts
+* Glitter
+* Huge decorative elements
+* Old-fashioned wedding website aesthetics
+
+Preferred visual system:
+
+* Warm ivory / off-white backgrounds
+* Charcoal / near-black text
+* Subtle champagne/gold accents
+* Soft beige tones
+* Elegant serif typography for wedding names
+* Clean Arabic sans-serif typography for UI
+* Thin borders
+* Large whitespace
+* Soft shadows
+* Very subtle animations
+
+The website should feel closer to a premium modern SaaS product combined with luxury wedding branding.
+
+---
+
+# 4. Main Pages
+
+Build these pages/screens:
+
+### A. Landing Page
+
+Hero section:
+
+**ليلتكم تبدأ من هنا**
+
+Subtitle:
+
+"أنشئ دعوة زفاف أنيقة، شاركها بسهولة، وتابع ضيوفك من مكان واحد."
+
+Primary CTA:
+
+**صمّم دعوتك**
+
+Secondary CTA:
+
+**شاهد نموذجًا**
+
+Show a beautiful mock wedding invitation preview.
+
+Add a few feature cards:
+
+* دعوة إلكترونية أنيقة
+* تأكيد الحضور RSVP
+* إدارة الضيوف
+* مشاركة سهلة
+* تفاصيل المكان والموعد
+* QR لتأكيد الدخول
+
+Add a section:
+
+**لماذا ليلتنا؟**
+
+Explain in simple language:
+
+"لأن دعوة الفرح ليست مجرد صورة ولينك."
+
+Then show the journey:
+
+**صمّم → شارك → تابع → استمتع**
+
+---
+
+# 5. Invitation Creation Flow
+
+This is the most important part of the prototype.
+
+When the user clicks:
+
+**صمّم دعوتك**
+
+take them into a very simple step-by-step invitation builder.
+
+Do NOT create a complicated Canva-like editor.
+
+Use a guided wizard.
+
+### Step 1 — اختر التصميم
+
+Show 6 wedding templates.
+
+Examples:
+
+1. Elegant Ivory
+2. Golden Garden
+3. Minimal Black
+4. Romantic Floral
+5. Sunset Wedding
+6. Classic Arabic
+
+Each template should have a beautiful visual preview.
+
+Allow selecting one.
+
+Button:
+
+**اختيار التصميم**
+
+---
+
+### Step 2 — بيانات المناسبة
+
+Very simple form:
+
+اسم العريس
+اسم العروس
+تاريخ المناسبة
+وقت المناسبة
+مكان المناسبة
+
+Optional:
+
+رسالة ترحيبية
+
+The form should be extremely easy and visually clean.
+
+Add helpful placeholders/examples.
+
+---
+
+### Step 3 — أضف التفاصيل
+
+Simple toggle cards:
+
+* الموقع
+* الموسيقى
+* Countdown
+* Dress Code
+* صور العروسين
+
+The user does not need to understand technical settings.
+
+For example:
+
+Instead of technical wording:
+
+"Enable RSVP System"
+
+Use:
+
+**هل تريد معرفة من سيحضر؟**
+
+Toggle: نعم / لا
+
+Instead of:
+
+"Guest Management"
+
+Use:
+
+**هل تريد متابعة ضيوفك؟**
+
+Toggle: نعم / لا
+
+This principle is very important throughout the product:
+**Talk like a wedding assistant, not like software.**
+
+---
+
+### Step 4 — معاينة الدعوة
+
+Show a large mobile phone mockup containing the invitation.
+
+The user should be able to see:
+
+* Couple names
+* Wedding date
+* Countdown
+* Location
+* Music
+* RSVP button
+* Gallery
+
+Add:
+
+**هذه هي دعوتك ❤️**
+
+Buttons:
+
+**تعديل**
+
+**نشر الدعوة**
+
+---
+
+# 6. Client Dashboard
+
+After publishing, show a simple client dashboard.
+
+Do not make this feel like an enterprise admin panel.
+
+The dashboard should be extremely easy.
+
+Top:
+
+**أهلًا أحمد ❤️**
+
+**فرحك بعد 32 يومًا**
+
+Then show 4 simple cards:
+
+### الضيوف
+
+1,248
+
+### أكدوا الحضور
+
+873
+
+### لم يردوا
+
+214
+
+### اعتذروا
+
+161
+
+Then show:
+
+### دعوة فرحك
+
+Large invitation preview.
+
+Buttons:
+
+**فتح الدعوة**
+
+**مشاركة الدعوة**
+
+**تعديل الدعوة**
+
+---
+
+# 7. "Share" Experience
+
+Clicking مشاركة الدعوة should open a clean modal.
+
+Show:
+
+### شارك دعوتك
+
+Buttons:
+
+**واتساب**
+
+**نسخ الرابط**
+
+**QR Code**
+
+Show invitation URL:
+
+`layletna.com/i/ahmed-salma`
+
+Also show a WhatsApp-style message preview:
+
+"يسعدنا دعوتكم لمشاركتنا فرحتنا ❤️
+أحمد وسلمى
+17 سبتمبر 2026"
+
+Add:
+
+**مشاركة الآن**
+
+Everything should work with mock interactions.
+
+---
+
+# 8. Guest Management
+
+This is one of the main differentiators.
+
+Create a simple page:
+
+### ضيوفك
+
+Search bar:
+
+**ابحث عن ضيف**
+
+Filters:
+
+* الكل
+* أكد الحضور
+* في الانتظار
+* اعتذر
+
+Guest list example:
+
+أحمد محمد — ✅ مؤكد — 2 أشخاص
+محمد علي — ⏳ لم يرد
+سارة حسن — ❌ اعتذرت
+عمر خالد — ✅ مؤكد — 1 شخص
+
+Show a summary:
+
+**عدد الأشخاص المتوقع حضورهم: 1,036**
+
+This should feel genuinely useful.
+
+---
+
+# 9. RSVP Demo
+
+Create a public invitation page that represents what a real guest sees.
+
+Example:
+
+## أحمد & سلمى
+
+17 سبتمبر 2026
+
+20:00
+
+القاهرة
+
+Show:
+
+* Couple photo
+* Elegant wedding hero
+* Countdown
+* Wedding details
+* Location
+* Music button
+* Gallery
+* RSVP section
+
+RSVP:
+
+**هل ستشاركوننا فرحتنا؟**
+
+Buttons:
+
+❤️ نعم، بكل حب
+
+للأسف لن أستطيع الحضور
+
+Then:
+
+**عدد الأشخاص**
+
+[-] 2 [+]
+
+Button:
+
+**تأكيد الحضور**
+
+After clicking, display a beautiful success state:
+
+**تم تأكيد حضورك ❤️**
+
+"في انتظاركم لنحتفل سويًا."
+
+---
+
+# 10. QR Check-in Demo
+
+Include a small "يوم الفرح" section in the dashboard.
+
+Show:
+
+### تسجيل دخول الضيوف
+
+Create a visual QR scanner mockup.
+
+Show fake live stats:
+
+**873**
+تم تأكيدهم
+
+**421**
+دخلوا الحفل
+
+Button:
+
+**فتح تسجيل الدخول**
+
+This does not need real QR scanning.
+Just create a realistic visual prototype.
+
+---
+
+# 11. Important UX Principle
+
+The entire product should be designed for people who are NOT technical.
+
+Never overwhelm the user.
+
+Avoid complicated sidebars with 15 items.
+
+Use a simple navigation structure:
+
+الرئيسية
+دعوتي
+الضيوف
+المشاركة
+إعدادات
+
+On mobile, use a simple bottom navigation where appropriate.
+
+Always show the next recommended action.
+
+For example:
+
+**الخطوة التالية: أضف قائمة الضيوف**
+
+Button:
+
+**إضافة الضيوف**
+
+---
+
+# 12. Landing Page Sections
+
+Include:
+
+1. Hero
+2. Invitation preview
+3. How it works
+4. Core features
+5. Templates
+6. Dashboard preview
+7. Pricing preview
+8. FAQ
+9. CTA
+10. Footer
+
+---
+
+# 13. Pricing Preview
+
+Create 3 simple packages.
+
+### بداية
+
+149 EGP
+
+Basic digital invitation
+
+### فرحتنا
+
+349 EGP
+
+Invitation + RSVP + Guest Management
+
+Mark this as:
+
+**الأكثر اختيارًا**
+
+### ليلة كاملة
+
+599 EGP
+
+Everything + QR Check-in + Gallery + Premium features
+
+These are placeholder prices for the prototype and should be easy to change later.
+
+---
+
+# 14. Responsive Design
+
+This is extremely important.
+
+Build mobile-first.
+
+The public invitation page should look especially beautiful on phones.
+
+The dashboard should work well on desktop and mobile.
+
+Make sure:
+
+* No horizontal scrolling
+* Arabic RTL is correct
+* Buttons are large enough
+* Forms are simple
+* Cards stack properly on mobile
+* Typography remains readable
+
+---
+
+# 15. Interactions
+
+Implement realistic frontend interactions:
+
+* Template selection
+* Form input
+* Live invitation preview
+* Toggles
+* RSVP confirmation
+* Guest filtering
+* Search
+* Share modal
+* QR modal
+* Navigation
+* Dashboard statistics
+* Countdown simulation
+* Toast notifications
+* Success states
+
+Use mock data and local state.
+
+No backend required.
+
+---
+
+# 16. Demo Data
+
+Use fictional example names:
+
+العريس: أحمد
+العروس: سلمى
+
+Wedding date:
+
+17 September 2026
+
+Location:
+
+Cairo, Egypt
+
+Guests:
+
+1,248
+
+Confirmed:
+
+873
+
+Pending:
+
+214
+
+Declined:
+
+161
+
+---
+
+# 17. Technical Direction
+
+Use a modern React-based frontend.
+
+Preferred stack:
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* shadcn/ui where useful
+* Lucide icons
+
+Keep the code clean and component-based.
+
+Suggested components:
+
+* Navbar
+* Hero
+* TemplateCard
+* InvitationPreview
+* BuilderStep
+* EventForm
+* DashboardCard
+* GuestTable
+* ShareModal
+* RSVPSection
+* QRModal
+* PricingCard
+* FAQ
+* Footer
+
+Create reusable components rather than one huge page.
+
+---
+
+# 18. Important Prototype Requirement
+
+This is a **visual/product prototype**.
+
+Prioritize:
+
+1. UX
+2. Visual quality
+3. Simplicity
+4. Realistic interactions
+5. Mobile experience
+
+Do not spend time implementing production backend architecture.
+
+The result should make me look at the website and immediately understand:
+
+**"This could become a real Egyptian startup."**
+
+---
+
+# 19. Brand
+
+Use this branding consistently:
+
+**ليلتنا**
+**Layletna**
+
+Tagline:
+
+**ليلتكم تبدأ من هنا.**
+
+Use a simple elegant logo:
+
+* Arabic wordmark
+* subtle wedding-inspired symbol
+* minimal
+* no generic heart logo
+
+---
+
+# 20. Final Result
+
+The final prototype should allow me to experience this complete flow:
+
+Landing Page
+→ Create Invitation
+→ Choose Template
+→ Enter Wedding Details
+→ Preview Invitation
+→ Publish
+→ Dashboard
+→ Share Invitation
+→ Guest opens invitation
+→ RSVP
+→ Client sees updated guest statistics
+→ QR Check-in demo
+
+Make the final result polished enough that I can use it as a product demo for future development, branding, backend implementation, and pitching.
+
+Do not add unnecessary features just to make the application larger.
+
+**Simple > complicated.**
+
+The product should feel premium, friendly, trustworthy, and extremely easy for a non-technical Egyptian customer to use.
