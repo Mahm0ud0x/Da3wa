@@ -1,0 +1,887 @@
+# Upgrade Layletna — Premium Template Gallery, Live Preview & Invitation Opening Experience
+
+Continue working on the existing Layletna website and improve the current implementation rather than rebuilding everything blindly.
+
+The main goal of this update is to make the wedding invitations and template experience feel **premium, emotional, elegant, and production-quality**.
+
+The most important parts of this task are:
+
+1. Template gallery must appear immediately after the hero/welcome section.
+2. Templates must look beautiful and varied.
+3. Users must be able to preview exactly how a template would look as a real invitation before choosing it.
+4. The invitation itself must have a beautiful opening animation.
+5. Typography must be one of the strongest parts of the entire product.
+6. The agent should create enough high-quality template designs and image assets to make the product feel like a real commercial wedding invitation platform.
+
+---
+
+# 1. IMPORTANT UX CHANGE — TEMPLATE GALLERY SHOULD APPEAR VERY EARLY
+
+After the initial hero/welcome section, the next major section on the homepage should be:
+
+# "اختار دعوتك"
+
+Subtitle:
+
+**"اختار التصميم اللي يشبه ليلتكم، وشوف دعوتك قبل ما تبدأ."**
+
+This section should appear BEFORE long feature explanations.
+
+The reason is simple:
+
+The visual invitation is the strongest selling point.
+
+The user should quickly see:
+
+* Beautiful invitations
+* Different styles
+* What the final product looks like
+
+Then they become interested in buying.
+
+---
+
+# 2. TEMPLATE GALLERY DESIGN
+
+Use the uploaded reference image as UX inspiration for the template gallery layout.
+
+Do NOT copy the exact visual design.
+
+Create a much more polished and premium version.
+
+The layout should show multiple invitation templates in cards.
+
+Each card should contain:
+
+* Large invitation/mobile preview
+* Template name
+* Style/category
+* Primary CTA
+* Secondary preview CTA
+
+Example:
+
+**Luxury Ivory**
+
+**Luxury**
+
+[استخدم هذا القالب]
+
+[شاهد الدعوة]
+
+The templates should feel like real wedding invitations, not generic placeholder cards.
+
+---
+
+# 3. TEMPLATE IMAGE QUALITY
+
+This is extremely important.
+
+Do NOT use ugly placeholders.
+
+Do NOT use random low-quality stock images.
+
+Create beautiful visual assets for the templates.
+
+Use tasteful wedding imagery such as:
+
+* Elegant wedding venues
+* Floral arrangements
+* Romantic sunset locations
+* Luxury interiors
+* Garden weddings
+* Beach weddings
+* Soft editorial wedding photography
+* Elegant Arabic wedding aesthetics
+* Minimal luxury compositions
+
+Images should have:
+
+* High visual quality
+* Similar visual quality across templates
+* Cohesive color grading
+* Premium editorial feel
+
+The entire website should look visually consistent.
+
+---
+
+# 4. CREATE MULTIPLE DISTINCT TEMPLATES
+
+Create at least 8–10 strong initial templates.
+
+Do NOT make 10 slightly different versions of the same design.
+
+Make them clearly different.
+
+Suggested styles:
+
+### 1. Luxury Ivory
+
+Cream / ivory
+Elegant typography
+Minimal flowers
+Luxury editorial feel
+
+### 2. Golden Garden
+
+Warm gold
+Garden setting
+Soft floral details
+Romantic
+
+### 3. Sunset
+
+Warm sunset
+Outdoor / beach wedding
+Elegant serif typography
+
+### 4. Black & Gold
+
+Dark luxury
+Black background
+Champagne gold
+High-end evening wedding
+
+### 5. Classic Arabic
+
+Elegant Arabic design
+Traditional visual details
+Premium Arabic typography
+
+### 6. Modern Minimal
+
+Very clean
+Lots of whitespace
+Editorial typography
+Minimal decoration
+
+### 7. Floral Romance
+
+Soft floral borders
+Rose / ivory palette
+Romantic typography
+
+### 8. Royal
+
+Deep luxurious tones
+Gold details
+Elegant decorative elements
+
+### 9. White Garden
+
+Bright white
+Flowers
+Soft natural light
+
+### 10. Mediterranean
+
+Beach / coastal atmosphere
+Warm colors
+Elegant outdoor wedding feel
+
+Each template should have its own:
+
+* Color palette
+* Typography
+* Layout
+* Decorative style
+* Hero treatment
+* Image treatment
+
+Do not make all templates look like clones.
+
+---
+
+# 5. TEMPLATE CATEGORIES
+
+Add filters above the gallery:
+
+**الكل**
+
+**فاخر**
+
+**رومانسي**
+
+**مودرن**
+
+**كلاسيك**
+
+**حدائق**
+
+**شاطئ**
+
+Make filtering smooth and elegant.
+
+---
+
+# 6. LIVE TEMPLATE PREVIEW
+
+This is a major feature.
+
+When the customer clicks:
+
+**"شاهد الدعوة"**
+
+open a large preview experience.
+
+Do not just show the template image.
+
+Show a realistic full wedding invitation.
+
+The customer should be able to scroll through the invitation exactly like a real guest would.
+
+Include:
+
+* Couple names
+* Date
+* Countdown
+* Location
+* Wedding details
+* Gallery
+* Music button
+* RSVP section
+* Footer
+
+Use demo names:
+
+**أحمد & سلمى**
+
+Date:
+
+**17 سبتمبر 2026**
+
+Location:
+
+**القاهرة**
+
+The preview should feel like:
+
+"I'm actually looking at the final invitation I will send to my guests."
+
+---
+
+# 7. PREVIEW MODAL / FULL SCREEN EXPERIENCE
+
+When opening a template preview:
+
+Use a beautiful full-screen or near-full-screen experience.
+
+Desktop:
+
+* Invitation centered
+* Soft neutral background
+* Device-style preview if appropriate
+* Buttons outside the invitation
+
+Mobile:
+
+* Invitation takes most of the viewport
+* Natural scrolling
+* No unnecessary UI clutter
+
+Controls:
+
+**استخدم هذا القالب**
+
+**إغلاق**
+
+Potentially:
+
+**تغيير القالب**
+
+---
+
+# 8. INVITATION OPENING ANIMATION
+
+This is one of the most important visual features.
+
+When a guest first opens an invitation, do not immediately show the full invitation.
+
+Instead show a beautiful opening experience.
+
+Example concept:
+
+A digital wedding envelope.
+
+Centered:
+
+Elegant envelope / invitation cover
+
+Text:
+
+**أحمد & سلمى**
+
+Below:
+
+**دعوة خاصة**
+
+Button:
+
+**افتح الدعوة**
+
+When the user clicks:
+
+**افتح الدعوة**
+
+play a beautiful animation.
+
+Possible animation:
+
+1. Envelope appears centered.
+2. Envelope flap opens.
+3. Invitation card slides upward.
+4. Soft fade / blur transition.
+5. Invitation expands into the full screen.
+6. Hero section appears.
+7. Background music can optionally begin if enabled.
+
+The animation should feel:
+
+* Elegant
+* Smooth
+* Emotional
+* Premium
+* Short
+
+Target animation duration:
+
+Approximately 1–2 seconds.
+
+Do NOT create a childish or flashy animation.
+
+Think:
+
+**Luxury digital wedding invitation.**
+
+---
+
+# 9. ENVELOPE DESIGN
+
+Create several tasteful envelope styles.
+
+Possible concepts:
+
+### Ivory envelope
+
+Cream paper
+Gold seal
+
+### Black luxury
+
+Black paper
+Gold seal
+
+### Floral
+
+Soft floral border
+
+### Royal
+
+Dark luxury colors
+Elegant decorative seal
+
+The opening experience should inherit the selected template's visual identity.
+
+This means:
+
+Template A:
+Ivory envelope
+
+Template B:
+Black envelope
+
+Template C:
+Floral envelope
+
+etc.
+
+---
+
+# 10. TYPOGRAPHY — EXTREMELY IMPORTANT
+
+Typography must receive special attention.
+
+The current product should NOT look like a generic Arabic website using one normal font everywhere.
+
+Create a deliberate typography system.
+
+Use combinations such as:
+
+### Wedding names
+
+Elegant serif / high-contrast display font
+
+### Arabic headings
+
+Premium Arabic display font
+
+### UI
+
+Clean modern Arabic sans-serif
+
+### Supporting text
+
+Simple readable Arabic font
+
+The names of the couple should feel special.
+
+Example:
+
+**أحمد**
+**و**
+**سلمى**
+
+or:
+
+**أحمد & سلمى**
+
+depending on template.
+
+The typography should communicate:
+
+* Luxury
+* Romance
+* Elegance
+* Celebration
+
+---
+
+# 11. IMPORTANT FONT RULE
+
+Use high-quality fonts that properly support Arabic.
+
+Do not use poor fonts.
+
+Do not mix too many fonts.
+
+Maximum:
+
+2–3 font families per template.
+
+The system should allow each template to define its own typography.
+
+For example:
+
+```ts
+{
+  headingFont,
+  bodyFont,
+  accentFont
+}
+```
+
+Make typography data-driven.
+
+---
+
+# 12. TEMPLATE SYSTEM ARCHITECTURE
+
+Do NOT build each invitation page from scratch.
+
+Create a reusable invitation renderer.
+
+Each template should define things such as:
+
+```ts
+{
+  id,
+  name,
+  category,
+  colors,
+  fonts,
+  heroStyle,
+  envelopeStyle,
+  layout,
+  decorations,
+  images,
+  active,
+  featured
+}
+```
+
+The invitation renderer should use this configuration.
+
+This will make it much easier to add new templates later.
+
+---
+
+# 13. REALISTIC PERSONALIZATION
+
+The live preview should react to sample data.
+
+If the user edits:
+
+**اسم العريس**
+
+the invitation preview should update.
+
+If the user changes:
+
+**اسم العروس**
+
+the preview should update.
+
+If the user changes:
+
+**التاريخ**
+
+the invitation preview should update.
+
+This creates a much stronger product experience.
+
+---
+
+# 14. TEMPLATE SELECTION FLOW
+
+Ideal user journey:
+
+Homepage
+↓
+Hero
+↓
+Template Gallery
+↓
+Choose template
+↓
+Preview invitation
+↓
+"استخدم هذا القالب"
+↓
+Invitation Builder
+↓
+Enter names/details
+↓
+Live preview
+↓
+Choose package
+↓
+Publish
+
+Keep this flow extremely simple.
+
+The customer should never feel lost.
+
+---
+
+# 15. HOMEPAGE ORDER
+
+Use this general order:
+
+### Section 1
+
+Hero
+
+**ليلتكم تبدأ من هنا.**
+
+CTA:
+
+**صمّم دعوتك الآن**
+
+---
+
+### Section 2
+
+Template Gallery
+
+**اختار دعوتك**
+
+This is the most visually important section.
+
+---
+
+### Section 3
+
+"شوفها قبل ما تختارها"
+
+Interactive template previews.
+
+---
+
+### Section 4
+
+Why Layletna
+
+Simple benefits:
+
+* تصميم يليق بليلتكم
+* تأكيد حضور الضيوف
+* مشاركة سهلة
+* كل التفاصيل في مكان واحد
+
+---
+
+### Section 5
+
+How it works
+
+**اختار → خصص → شارك**
+
+---
+
+### Section 6
+
+Guest Management
+
+Show dashboard preview.
+
+---
+
+### Section 7
+
+Pricing
+
+Packages.
+
+---
+
+### Section 8
+
+FAQ
+
+---
+
+### Section 9
+
+Final CTA
+
+**جاهزين نبدأ ليلتكم؟**
+
+---
+
+# 16. PREMIUM MICRO-ANIMATIONS
+
+Use subtle Framer Motion / CSS animations where appropriate.
+
+Examples:
+
+* Template cards gently reveal on scroll
+* Hover preview
+* Smooth modal transition
+* Envelope opening
+* Invitation entrance
+* Image reveal
+* Soft text fade
+* Button feedback
+
+Do not overdo animations.
+
+The experience should remain fast.
+
+---
+
+# 17. TEMPLATE CARD INTERACTION
+
+On desktop:
+
+When hovering over a template:
+
+* Slight elevation
+* Subtle scale
+* Preview button becomes visible
+* Background gently changes
+* No aggressive zoom
+
+On mobile:
+
+Use clear buttons.
+
+Avoid hover-dependent functionality on mobile.
+
+---
+
+# 18. TEMPLATE PREVIEW SHOULD FEEL LIKE PRODUCT
+
+A major requirement:
+
+Do not show:
+
+"Template Preview"
+
+like an image gallery.
+
+It should feel like:
+
+**"This is my future wedding invitation."**
+
+Use realistic invitation content.
+
+Example:
+
+**أحمد & سلمى**
+
+**يسعدنا أن نشارككم أجمل لحظاتنا**
+
+**17 سبتمبر 2026**
+
+**القاهرة**
+
+Then:
+
+**بانتظار حضوركم ومشاركتنا فرحتنا ❤️**
+
+---
+
+# 19. OPTIONAL MUSIC
+
+Within the invitation preview:
+
+Show a tasteful music control.
+
+Example:
+
+🎵
+
+**تشغيل الموسيقى**
+
+Do not force autoplay.
+
+Respect browser restrictions.
+
+Use a mock track for the prototype.
+
+---
+
+# 20. MOBILE-FIRST INVITATION EXPERIENCE
+
+The actual guest-facing invitation should be designed primarily for mobile.
+
+Test:
+
+* 360px
+* 390px
+* 430px widths
+
+No horizontal scrolling.
+
+Text must remain readable.
+
+Buttons must be easy to tap.
+
+The opening animation must also work beautifully on mobile.
+
+---
+
+# 21. DARK MODE
+
+The website itself should support:
+
+* Light
+* Dark
+* System
+
+For the customer dashboard and marketing site.
+
+For invitation templates, dark/light appearance should be controlled by the template design rather than blindly applying the global website theme.
+
+---
+
+# 22. PREMIUM DETAILS
+
+Add subtle details that improve perceived quality:
+
+* Elegant separators
+* Soft paper textures
+* Light grain where appropriate
+* Subtle gold lines
+* Decorative flowers
+* Refined shadows
+* Smooth transitions
+* Beautiful button states
+
+But avoid visual clutter.
+
+Luxury = restraint.
+
+---
+
+# 23. ADMIN SUPPORT
+
+Make the template system compatible with the future Admin Dashboard.
+
+Admin should eventually be able to control:
+
+* Template name
+* Category
+* Preview image
+* Template order
+* Featured state
+* Active state
+* Color palette
+* Font configuration
+* Envelope style
+* Hero image
+* Gallery images
+
+For this stage, mock admin data is acceptable, but the architecture must be prepared for real backend integration.
+
+---
+
+# 24. QUALITY BAR
+
+Before finishing this implementation, perform a design audit.
+
+Check:
+
+* Typography
+* Arabic RTL
+* Template consistency
+* Template diversity
+* Mobile experience
+* Preview experience
+* Opening animation
+* Button hierarchy
+* Spacing
+* Alignment
+* Images
+* Dark mode
+* Accessibility
+* Loading states
+* Empty states
+* Performance
+
+The final result should feel like a premium startup product that could be shown to real customers.
+
+It should NOT feel like:
+
+* A school project
+* A simple HTML template
+* A generic AI-generated dashboard
+* A template marketplace with random images
+
+It should feel like:
+
+**A premium Egyptian digital wedding invitation brand.**
+
+---
+
+# 25. Final Goal
+
+When someone visits Layletna, the experience should be:
+
+**Hero**
+→ "ليلتكم تبدأ من هنا"
+
+**Template Gallery**
+→ "اختار دعوتك"
+
+**Live Preview**
+→ "شوف شكل دعوتك"
+
+**Invitation Opening Animation**
+→ "افتح الدعوة"
+
+**Customization**
+→ Names / Date / Location
+
+**Pricing**
+→ Choose package
+
+**Publish**
+→ Share with guests
+
+The emotional reaction we want from the visitor is:
+
+**"عايز دعوتي تبقى بالشكل ده."**
+
+Prioritize that feeling above adding more technical features.
