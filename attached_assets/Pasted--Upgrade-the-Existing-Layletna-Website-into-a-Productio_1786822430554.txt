@@ -1,0 +1,947 @@
+# Upgrade the Existing Layletna Website into a Production-Ready Product
+
+You are working on the existing Layletna website:
+
+**Layletna | ليلتنا**
+
+Current project:
+https://layletna-polis-builder--tiktok905k.replit.app
+
+This is no longer just a visual demo.
+
+The goal now is to transform the current implementation into a polished, production-oriented wedding invitation SaaS that could realistically be launched in Egypt.
+
+Do NOT throw away good existing work.
+
+First inspect the current application thoroughly, understand the existing components, routes, state management, styling, and structure, then refactor and improve the existing implementation instead of blindly rebuilding everything from scratch.
+
+---
+
+# 1. Product Vision
+
+Layletna is a premium Egyptian digital wedding invitation platform.
+
+It should NOT feel like a generic template marketplace.
+
+It should feel like:
+
+**A modern wedding experience platform**
+
+Core value proposition:
+
+**"دعوتك مش مجرد لينك."**
+
+Suggested headline:
+
+**ليلتكم تبدأ من هنا.**
+
+Supporting copy:
+
+**"أنشئ دعوة زفاف أنيقة، شاركها بسهولة، وتابع ضيوفك من مكان واحد."**
+
+The website must communicate three things immediately:
+
+1. Beautiful invitations
+2. Extremely easy creation
+3. Real guest management value
+
+---
+
+# 2. Very Important: Build for Conversion
+
+The current homepage should be redesigned as a real marketing/sales landing page.
+
+The first viewport is extremely important.
+
+Create a strong above-the-fold hero.
+
+Layout:
+
+LEFT / MAIN:
+
+* Large Arabic headline
+* Supporting subtitle
+* Primary CTA
+* Secondary CTA
+* Pricing hint
+
+RIGHT:
+
+* Beautiful interactive wedding invitation preview
+* Mobile phone mockup
+* Subtle animation
+
+Hero CTA:
+
+**صمّم دعوتك الآن**
+
+Secondary CTA:
+
+**جرّب نموذجًا**
+
+Pricing hint:
+
+**ابتداءً من 149 جنيه**
+
+The first section should immediately make the visitor understand:
+
+"What is Layletna?"
+
+"What do I get?"
+
+"How much does it start from?"
+
+"Why is it better?"
+
+Do not waste the first screen on generic branding text.
+
+---
+
+# 3. Conversion Funnel
+
+The homepage should follow this structure:
+
+1. Hero
+2. Social proof / trust section
+3. Interactive invitation preview
+4. Why Layletna
+5. How it works
+6. Templates
+7. Guest management
+8. Pricing
+9. Demo invitation CTA
+10. FAQ
+11. Final CTA
+12. Footer
+
+The primary conversion throughout the page is:
+
+**صمّم دعوتك الآن**
+
+Use strategic CTA repetition.
+
+---
+
+# 4. Hero Messaging
+
+Use emotionally strong but concise Arabic.
+
+Primary headline:
+
+**ليلتكم تبدأ من هنا.**
+
+Supporting copy:
+
+**"أنشئ دعوة زفاف أنيقة، شاركها بسهولة، وتابع ضيوفك من مكان واحد."**
+
+Primary button:
+
+**صمّم دعوتك الآن**
+
+Secondary:
+
+**شاهد دعوة حقيقية**
+
+Add:
+
+**ابتداءً من 149 جنيه**
+
+Avoid exaggerated marketing language.
+
+The website should feel trustworthy and premium.
+
+---
+
+# 5. Visual Identity
+
+Keep the Layletna brand:
+
+**ليلتنا | Layletna**
+
+Visual direction:
+
+* Premium
+* Elegant
+* Modern
+* Minimal
+* Warm
+* Emotional
+* High-end
+* Egyptian-friendly
+
+Avoid:
+
+* Overuse of hearts
+* Excessive gold
+* Glitter
+* Cheap wedding graphics
+* Generic stock-style romantic illustrations
+* 2010-era wedding website design
+
+Preferred visual system:
+
+* Ivory
+* Warm beige
+* Charcoal
+* Champagne gold
+* Soft neutral tones
+
+Typography:
+
+* Elegant serif for wedding names/headlines
+* Excellent Arabic sans-serif for interface text
+
+Use spacing and typography to create the premium feel.
+
+---
+
+# 6. Add Full Dark Mode
+
+Implement a proper theme system:
+
+* Light
+* Dark
+* System
+
+Add a visible theme toggle.
+
+Persist the selected theme.
+
+Dark mode must be intentionally designed, not simply inverted colors.
+
+The invitation preview must remain beautiful in dark mode.
+
+Support dark/light versions of templates where appropriate.
+
+---
+
+# 7. Templates Section
+
+Create a premium template marketplace/gallery.
+
+Title:
+
+**اختار الشكل اللي يشبه ليلتكم**
+
+Categories:
+
+* Luxury
+* Minimal
+* Floral
+* Modern
+* Classic
+* Arabic
+
+Each template card should contain:
+
+* Beautiful preview
+* Template name
+* Category
+* "Preview"
+* "Use this template"
+
+Add a filter system.
+
+Templates must be driven by structured data, not hardcoded duplicated components.
+
+Create a reusable Template data model.
+
+Example:
+
+```ts
+{
+  id,
+  name,
+  category,
+  thumbnail,
+  preview,
+  theme,
+  featured,
+  active
+}
+```
+
+The architecture must allow adding/removing templates later from the Admin Dashboard without changing the core frontend.
+
+---
+
+# 8. Pricing
+
+Create a serious pricing section.
+
+Use three main packages:
+
+## بداية
+
+149 EGP
+
+For couples who want a beautiful digital invitation.
+
+Includes:
+
+* Premium invitation
+* Event details
+* Custom invitation URL
+* WhatsApp sharing
+* Responsive mobile invitation
+
+---
+
+## فرحتنا
+
+349 EGP
+
+Mark this as:
+
+**الأكثر اختيارًا**
+
+Includes everything in "بداية" plus:
+
+* RSVP
+* Guest management
+* Guest count
+* Attendance tracking
+* Basic analytics
+
+---
+
+## ليلة كاملة
+
+599 EGP
+
+Includes:
+
+* Everything in "فرحتنا"
+* QR check-in
+* Guest gallery
+* Guestbook
+* More customization
+* Premium features
+
+Add a future-ready fourth option:
+
+**Custom**
+
+"للأفراح الكبيرة والمنظمين"
+
+Do not make pricing overly complicated.
+
+Use simple customer-friendly language.
+
+---
+
+# 9. Pricing Conversion Design
+
+The pricing cards should clearly answer:
+
+"What do I get?"
+
+"Which plan is right for me?"
+
+Make the middle plan visually dominant.
+
+Add CTA buttons:
+
+**ابدأ الآن**
+
+Add a subtle guarantee/trust message:
+
+**"ابدأ بتصميم دعوتك وشوف النتيجة قبل النشر."**
+
+---
+
+# 10. Interactive Demo Invitation
+
+Build a beautiful public invitation demo.
+
+This should feel like a real wedding invitation.
+
+Example:
+
+العريس:
+أحمد
+
+العروس:
+سلمى
+
+Date:
+17 September 2026
+
+Location:
+Cairo, Egypt
+
+Sections:
+
+* Hero
+* Couple names
+* Countdown
+* Wedding details
+* Location
+* Gallery
+* Music
+* RSVP
+* Guestbook
+
+Create a CTA after the demo:
+
+**عجبتك؟ اعمل دعوتك الآن**
+
+---
+
+# 11. Invitation Builder
+
+Keep the creation process extremely simple.
+
+Do NOT build an overly complicated Canva-style editor.
+
+Use a guided wizard:
+
+### Step 1
+
+اختار التصميم
+
+### Step 2
+
+بيانات المناسبة
+
+* اسم العريس
+* اسم العروس
+* التاريخ
+* الوقت
+* المكان
+
+### Step 3
+
+تفاصيل إضافية
+
+Use human language.
+
+Instead of:
+
+"Enable RSVP"
+
+say:
+
+**هل تريد معرفة من سيحضر؟**
+
+Instead of:
+
+"Guest Management"
+
+say:
+
+**هل تريد متابعة ضيوفك؟**
+
+### Step 4
+
+Preview
+
+### Step 5
+
+Publish
+
+Always show a live invitation preview.
+
+Keep the UI beginner-friendly.
+
+---
+
+# 12. Guest Management
+
+Create a simple customer dashboard for guests.
+
+Example dashboard:
+
+**أهلًا أحمد ❤️**
+
+**فرحك بعد 32 يومًا**
+
+Statistics:
+
+* إجمالي الضيوف
+* أكدوا الحضور
+* لم يردوا
+* اعتذروا
+
+Guest table:
+
+* Name
+* Status
+* Number of guests
+
+Filters:
+
+* الكل
+* أكدوا الحضور
+* في الانتظار
+* اعتذروا
+
+Search.
+
+Show:
+
+**عدد الأشخاص المتوقع حضورهم**
+
+Make this feature feel genuinely useful.
+
+---
+
+# 13. Share Experience
+
+Create a polished share modal.
+
+Options:
+
+* WhatsApp
+* Copy link
+* QR Code
+
+Show the invitation URL.
+
+Example:
+
+`layletna.com/i/ahmed-salma`
+
+Generate a realistic WhatsApp message preview:
+
+"يسعدنا دعوتكم لمشاركتنا فرحتنا ❤️
+أحمد وسلمى
+17 سبتمبر 2026"
+
+The interaction should feel polished and production-ready.
+
+---
+
+# 14. QR Check-in
+
+Add a "يوم الفرح" section in the dashboard.
+
+Show:
+
+**تسجيل دخول الضيوف**
+
+Stats:
+
+* Confirmed
+* Checked in
+* Remaining
+
+Create a polished QR/check-in interface.
+
+Frontend prototype behavior is sufficient for now, but architect it so a real scanner/backend can be connected later.
+
+---
+
+# 15. Admin Dashboard / CMS
+
+This is a major requirement.
+
+Create a protected-looking Admin Dashboard structure.
+
+It should be separate from the customer dashboard.
+
+Main sections:
+
+### Overview
+
+Show:
+
+* Total users
+* Total events
+* Total invitations
+* Total guests
+* Orders
+* Revenue
+* Active events
+
+Use clean charts and summary cards.
+
+---
+
+### Templates
+
+Admin should be able to:
+
+* Add template
+* Edit template
+* Delete template
+* Activate/deactivate template
+* Mark featured
+* Change template order
+* Assign category
+
+Do NOT hardcode the template gallery into the UI.
+
+Make it data-driven.
+
+---
+
+### Packages
+
+Admin should be able to:
+
+* Add package
+* Edit package
+* Change price
+* Edit description
+* Change feature list
+* Change guest limit
+* Activate/deactivate package
+* Mark as most popular
+
+---
+
+### Orders
+
+Admin should see:
+
+* Order ID
+* Customer
+* Package
+* Event
+* Amount
+* Status
+* Created date
+
+Statuses:
+
+* Pending
+* Paid
+* Cancelled
+* Refunded
+
+Use mock data for now, but structure it cleanly for future backend integration.
+
+---
+
+### Customers
+
+Admin can:
+
+* Search customers
+* View customer
+* View event
+* View package
+* View guest count
+* View order status
+
+---
+
+### Content / CMS
+
+Create a section where admin can modify:
+
+* Hero title
+* Hero subtitle
+* CTA text
+* Pricing section text
+* FAQ
+* Feature text
+* Testimonials
+* Footer content
+
+The goal is to make the marketing site content manageable without modifying source code later.
+
+---
+
+# 16. Admin Security Architecture
+
+Do not implement fake client-only security as if it were production security.
+
+For this prototype:
+
+* Create a clean admin route
+* Create a mock admin state/session
+* Clearly separate Admin UI from Customer UI
+
+But structure the code so real authentication and authorization can later be connected through Supabase Auth + RLS.
+
+Never assume frontend route hiding is security.
+
+---
+
+# 17. Data Architecture
+
+Refactor the application around reusable data structures.
+
+Prepare future models for:
+
+```text
+users
+events
+invitations
+templates
+guests
+rsvps
+checkins
+packages
+orders
+gallery
+guest_messages
+site_content
+admin_users
+```
+
+Do not implement a real database yet unless the existing application already uses one.
+
+If the project already has a backend or database, inspect it before changing anything.
+
+---
+
+# 18. Production-Oriented Frontend
+
+This should not look like a one-file generated demo.
+
+Requirements:
+
+* Reusable components
+* Clean folder structure
+* TypeScript types
+* Shared UI components
+* Reusable cards
+* Reusable modals
+* Reusable form components
+* Centralized theme tokens
+* Centralized template data
+* Centralized pricing data
+* Good responsive behavior
+* Good error states
+* Loading states
+* Empty states
+
+Avoid duplicated markup.
+
+---
+
+# 19. Responsive Experience
+
+Mobile-first.
+
+The website must work exceptionally well on:
+
+* Mobile
+* Tablet
+* Desktop
+
+The public invitation is especially important on mobile.
+
+The dashboard must remain usable on smaller screens.
+
+No horizontal overflow.
+
+Excellent RTL behavior.
+
+---
+
+# 20. Navigation
+
+Customer navigation:
+
+* الرئيسية
+* دعوتي
+* الضيوف
+* المشاركة
+* الإعدادات
+
+Keep it intentionally minimal.
+
+Admin navigation:
+
+* Overview
+* Customers
+* Events
+* Orders
+* Templates
+* Packages
+* Content
+* Settings
+
+---
+
+# 21. Homepage Trust
+
+Add a lightweight trust section.
+
+For now, use realistic placeholder content rather than fake claims.
+
+Examples:
+
+**دعوات أجمل**
+
+**إدارة أسهل للضيوف**
+
+**تجربة مناسبة ليكم**
+
+Do NOT invent fake customer numbers, fake reviews, fake companies, or fake awards.
+
+Build the section so real testimonials can be inserted later through the Admin CMS.
+
+---
+
+# 22. FAQ
+
+Create a polished FAQ section.
+
+Questions should include:
+
+* هل أحتاج خبرة تقنية؟
+* هل الدعوة تعمل على الموبايل؟
+* هل أستطيع تعديل الدعوة بعد نشرها؟
+* هل أستطيع معرفة من أكد الحضور؟
+* هل يمكن مشاركة الدعوة على WhatsApp؟
+* هل يوجد QR للدخول؟
+* هل أستطيع تجربة الدعوة قبل الدفع؟
+
+Use accordion UI.
+
+---
+
+# 23. Final CTA
+
+At the bottom of the homepage:
+
+**جاهزين نبدأ ليلتكم؟**
+
+Subtitle:
+
+**صمّم دعوتك الأولى في دقائق.**
+
+Button:
+
+**ابدأ الآن**
+
+---
+
+# 24. Micro-interactions
+
+Use subtle premium animations:
+
+* Fade
+* Slide
+* Hover
+* Template selection
+* Modal transitions
+* Toast notifications
+* Button feedback
+* Smooth scrolling
+
+Do not over-animate.
+
+The website should feel premium, not like a flashy template.
+
+---
+
+# 25. SEO / Production Foundations
+
+Prepare:
+
+* Page title
+* Meta description
+* OpenGraph image support
+* Semantic HTML
+* Proper heading hierarchy
+* Favicon
+* Clean URLs
+* Responsive metadata
+
+Use Arabic-first SEO-friendly text.
+
+---
+
+# 26. Performance
+
+Prioritize:
+
+* Optimized images
+* Lazy loading
+* Minimal unnecessary client-side JavaScript
+* Reusable components
+* Efficient rendering
+
+Avoid shipping huge libraries unnecessarily.
+
+---
+
+# 27. Important: Do Not Fake Production
+
+Do NOT claim that payments, authentication, database, WhatsApp API, QR scanning, or backend functionality is production-ready unless actually implemented.
+
+For any mock functionality:
+
+* Make the UI realistic
+* Keep the architecture ready for real implementation
+* Use clear mock data
+* Avoid hardcoded behavior spread throughout the code
+
+---
+
+# 28. Final UX Goal
+
+When a normal Egyptian customer opens the website, they should immediately understand:
+
+**What is Layletna?**
+
+**Why should I use it?**
+
+**How much does it cost?**
+
+**Which package is right for me?**
+
+**What will my invitation look like?**
+
+And then:
+
+**Start creating my invitation**
+
+The experience should be so simple that a non-technical customer can create the invitation without needing instructions.
+
+---
+
+# 29. Final Quality Bar
+
+Before finishing:
+
+* Audit every page
+* Remove unnecessary complexity
+* Fix RTL issues
+* Fix responsive issues
+* Make typography consistent
+* Make spacing consistent
+* Make buttons consistent
+* Make cards consistent
+* Check empty states
+* Check loading states
+* Check hover/focus states
+* Check mobile layout
+* Check dark mode
+* Check accessibility basics
+
+Do a final visual polish pass.
+
+The result should feel like:
+
+**A real early-stage Egyptian SaaS startup**
+
+not:
+
+**a generated frontend demo.**
+
+---
+
+# 30. Preserve the Strong Parts
+
+Before modifying anything:
+
+1. Inspect the current implementation.
+2. Identify what is already good.
+3. Preserve useful components and interactions.
+4. Refactor only where needed.
+5. Do not remove working functionality without a reason.
+
+Then implement the redesign systematically.
+
+The final result should be polished, scalable, and ready for the next phase:
+
+**Frontend → Supabase Backend → Payments → Custom Domain → Production Launch**
+
+Start by inspecting the existing codebase and current UI, then implement the upgrade in logical stages.
